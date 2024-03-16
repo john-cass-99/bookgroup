@@ -1,0 +1,40 @@
+@import "./admin/common.css";
+
+header {
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+.data-div {
+	width: 310px;
+	margin: 0 auto;
+}
+
+.data-div div {
+	display: block;
+	margin-bottom: 10px;
+}
+
+label {
+	float: left;
+	width: 80px;
+}
+
+input[type="text"] {
+	width: 220px;
+}
+
+textarea {
+	width: 220px;
+}
+
+#cmdEvent2Cal {
+	background-color: lightgreen;
+}
+
+.floatr {
+	float: right;
+}

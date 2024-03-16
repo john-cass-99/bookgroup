@@ -1,0 +1,174 @@
+@import "./common.css";
+
+body {
+	text-align: center;
+}
+
+a:link {
+	color: blue
+}
+a:visited {
+	color: purple
+}
+
+.nobord {
+	border: 0px;
+}
+
+.show {display:block;}
+
+/* Heading Styles */
+
+table#heading {
+	border: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#heading td {
+	border: 0px;
+}
+
+table#heading td:nth-child(1) {
+	width: 300px;
+}
+
+/* Data Table Class
+
+.tblData {
+	table-layout: fixed;
+	white-space: nowrap;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	padding: 5px;
+	border-collapse: collapse;
+}
+
+table.tblData th {
+	text-align: left;
+	border: 1px solid black;
+	padding: 5px;
+	cursor: pointer;
+}
+
+table.tblData td {
+	border: 1px solid DarkGrey;
+	padding: 5px;
+}
+
+table.tblData tr:hover {
+	background-color: #ffff99;
+} */
+
+/* Styles for suggestions_admin.php */
+
+h1.h1mod {
+	margin-bottom: 3px;
+}
+
+select#filter {
+	margin-right: 20px;
+}
+
+table.main {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	padding: 5px;
+	border-collapse: collapse;
+}
+
+table.main th {
+	text-align: left;
+	border: 1px solid black;
+	padding: 5px;
+	cursor: pointer;
+}
+
+table.main td {
+	border: 1px solid DarkGrey;
+	padding: 5px;
+}
+
+table.main tr:hover {
+	background-color: #ffff99;
+}
+
+table.suggestions td:nth-child(9),td:nth-child(10) {
+	display: none;
+}
+
+table.suggestions td:nth-child(1) {
+	text-align: right;
+}
+
+/* Styles for bookdetails_admin.php */
+
+table#form {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#form td {
+	height: 30px;
+}
+
+.form_select {
+	width: 100px;
+}
+
+.mid_select {
+	width: 200px;
+}
+
+.wide_select {
+	width: 300px;
+}
+
+.form_button {
+	margin-left: 10px;
+	float: right;
+}
+
+/* Styles for calendar_admin.php */
+
+table.calendar td:nth-child(1), table.calendar th:nth-child(1) {
+	text-align: right;
+}
+
+table.calendar td:nth-child(3) {
+	white-space: nowrap;
+}
+
+table.calendar td:nth-child(6) {
+	display: none;
+}
+
+/* Styles for attendance.php */
+
+input[type="checkbox"] {
+	margin-top: 8px;
+}
+
+/* Styles for members.php */
+
+.bold {
+	font-weight: bold;
+}
+
+.wide_text {
+	width: 400px;
+}
+
+.w250 {
+	width: 250px;
+}
+
+p#SortMsg {
+	margin-top: 5px;
+	margin-bottom: -2px;
+	color: DarkRed;
+	text-align: center;
+}

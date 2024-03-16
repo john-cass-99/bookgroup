@@ -1,0 +1,176 @@
+body {
+	font-family: Calibri, Arial;
+	color: blue;
+	background-color: #80d0d0;
+}
+h1 {
+	text-align: center;
+	color: blue;
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+a:link {
+	color: blue
+}
+a:visited {
+	color: purple
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	padding: 5px;
+	border-collapse: collapse;
+}
+
+th {
+	text-align: left;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+td {
+	border: 1px solid DarkGrey;
+	padding: 5px;
+}
+
+th.attendance {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+td.attendance {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+div.links {
+	text-align: center;
+	margin-top: -24px;
+}
+
+/* Styles for the dropdown menu */
+
+button.dropbtn {
+	background-color: #80d0d0;
+	color: DarkBlue;
+	padding: 16px 16px 16px 5px;
+	font-size: 16px;
+	border: none;
+}
+
+button.dropbtn:hover, button.dropbtn:focus {
+	background-color: DeepSkyBlue;
+}
+
+div.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+table.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+table.dropdown-content tr td {
+	border: 0;
+}
+
+table.dropdown-content tr td a {
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+}
+
+table.dropdown-content tr td:hover {
+	background-color: lightblue
+}
+
+table.show {display:block;}
+
+table#sugBooks td:nth-child(6), table#sugBooks td:nth-child(7) {
+	display: none;
+}
+
+table#sugBooks th {
+	cursor: pointer;
+}
+
+p#clickMsg {
+	margin-bottom: -2px;
+	margin-top: -5px;
+	color: DarkRed;
+	text-align: center;
+}
+
+/* Styles for heading in bookgroup_name.php */
+
+div#bookgroup_name {
+	display: block;
+	width: 340px;
+	border-style: ridge; 
+	border-width: 10px; 
+	border-color: #0099FF;
+	margin: 0 auto;
+}
+
+div#bookgroup_name p {
+	border: 0;
+	font-family: /*'Gill Sans', 'Gill Sans MT',*/ Calibri, 'Trebuchet MS', sans-serif, Arial;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	color: black; 
+	line-height: 30%; 
+	padding-bottom: 5px;
+}
+
+/* Context menu on calendar.php */
+#ctxMenu{
+	display:none;
+	z-index:100;
+}
+div#ctxMenu {
+	position:absolute;
+	display:none;
+	left:0px;
+	top:0px;
+	padding:0;
+	margin:0;
+	cursor: pointer;
+}
+
+div#ctxMenu div {
+	text-align: left;
+	height:20px;
+	width:200px;
+	padding-left: 10px;
+	border:1px solid black;
+	background-color:white;
+	font-weight:normal;
+	white-space:nowrap;
+	color: black;
+	margin-top: -1px; /* gets rid of the double border */
+}
+
+div#ctxMenu div:hover {
+	background-color: cyan;
+}
+
+tr.context:hover {
+	background-color: yellow;
+}

@@ -1,0 +1,110 @@
+/* bookgroup2_admin.css */
+
+@import "./common.css";
+
+header {
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+.buttons {
+	width: 300px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.data-div {
+	width: 310px;
+	margin: 0 auto;
+}
+
+.data-div div {
+	display: block;
+	margin-bottom: 10px;
+}
+
+label {
+	float: left;
+	width: 80px;
+}
+
+#data-books label {
+	float: left;
+	width: 110px;
+}
+
+div#events label {
+	float: left;
+	width: 90px;
+}
+
+span#span_link {
+	white-space: nowrap;
+}
+
+input[type="text"]#txtAuthor {
+	width: 200px;
+	margin-right: 5px;
+}
+
+.narrow-input {
+	width: 80px;
+}
+
+.wide-input {
+	width: 300px;
+}
+
+.wide-input-with-button {
+	width: 260px;
+}
+
+select {
+	max-width: 300px;
+}
+
+#book_details {
+	margin-top: -5px;
+}
+
+.floatr {
+	float: right;
+}
+
+#cmdClose {
+	margin-left: 10px;
+}
+
+#cmdDelete {
+	background-color: red;
+}
+
+#cmdEvent2Cal {
+	background-color: lightgreen;
+}
+
+.signout {
+	text-align: center;
+}
+
+#response {
+	text-align: center;
+}
+
+#msg {
+	color: purple;
+	text-align: center;
+	font-size: 16pt;
+}
+
+.confirm {
+	display: none;
+	color: white;
+	background-color: purple;
+}

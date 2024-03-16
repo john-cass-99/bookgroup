@@ -1,0 +1,34 @@
+@import "./common.css";
+
+body {
+	text-align: center;
+}
+
+
+div.dashboard input[type=button] {
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: DarkGreen;
+    color: White;
+    margin: 0px 10px 50px 10px;
+}
+
+div.dashboard input[type=button]#return {
+	background-color: darkblue;
+ }
+
+
+ div.dashboard input[type=button]:disabled {
+	background-color: LightSteelBlue;
+	color: DarkSlateGrey;
+}
+
+.centre {
+    text-align: center;
+}
+
+.floatr {
+    float: right;
+}
+

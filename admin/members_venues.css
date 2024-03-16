@@ -1,0 +1,55 @@
+@import './common.css';
+
+h2 {
+	text-align: center;
+}
+
+table {
+	margin: 0 auto;
+}
+
+label {
+	float: left;
+	width: 113px;
+	white-space: nowrap;
+}
+
+input[type=checkbox] {
+	margin-top: 5px;
+}
+
+label.plain {
+	float: left;
+	width: auto;
+	white-space: nowrap;
+}
+
+input, select {
+	margin-bottom: 10px;
+}
+
+div#member_data {
+	width: 308px;
+	margin: 0 auto;
+}
+
+.form_button {
+	margin-left: 10px;
+	float: right;
+}
+
+div#buttons {
+	margin-top: 10px;
+}
+
+.short_txt {
+	width: 100px;
+}
+
+.medium_txt {
+	width: 180px;
+}
+
+.long_txt {
+	width: 300px;
+}
