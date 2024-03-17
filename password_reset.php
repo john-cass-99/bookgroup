@@ -10,6 +10,7 @@
 <body>
 <?php
 	include('validate.php');
+	include('variables.php');
 	$disabled = '';
 	$hidden = '';
 	$login = '';
@@ -91,7 +92,7 @@
 			<?php echo $message . "\n" ?>
 		</div>
 		<div>
-			<a href="index.html">Back to Login</a>
+			<a href="<?php print($loginForm) ?>">Back to Login</a>
 		</div>
 	</div>
 </body>

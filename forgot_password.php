@@ -19,6 +19,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 include ('db_config.php');
+include('variables.php');
 // Delete any expired records from forget_password
 $db->query("DELETE FROM forget_password WHERE created < NOW() - INTERVAL 4 HOUR;");
 
@@ -94,7 +95,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 			</div>
 		</form>
 		<div class="higher">
-				<a href="index.html">Back to Login</a>
+				<a href="<?php print($loginForm) ?>">Back to Login</a>
 			</div>
 	</div>
   </body>
