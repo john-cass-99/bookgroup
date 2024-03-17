@@ -6,7 +6,7 @@ include( "../../inf1.php" );
 
 function checkAdmin($application) {
 	if (!isset($_SESSION['login'][$application]['admin']) || $_SESSION['login'][$application]['admin'] < 1) {
-		header("Location: access_denied.html");
+		header("Location: access_denied.php");
 		exit();
 	}
 }
